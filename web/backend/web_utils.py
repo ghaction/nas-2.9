@@ -48,7 +48,7 @@ class WebUtils:
             version_res = RequestUtils(proxies=Config().get_proxies()).get_res(
                 "https://api.github.com/repos/ghaction/nas-2.9/releases/latest")
             commit_res = RequestUtils(proxies=Config().get_proxies()).get_res(
-                "https://api.github.com/repos/ghaction/nas-2.9/commits/master")
+                "https://api.github.com/repos/ghaction/nas-2.9/commits/back")
             if version_res and commit_res:
                 ver_json = version_res.json()
                 commit_json = commit_res.json()
