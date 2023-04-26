@@ -81,7 +81,7 @@ six==1.16.0
 slack-sdk==3.19.5
 sniffio==1.2.0
 sortedcontainers==2.4.0
-soupsieve==2.3.2.post1
+soupsieve==2.4.1
 SQLAlchemy==1.4.42
 stack-data==0.5.1
 terminal-layout==2.1.2
